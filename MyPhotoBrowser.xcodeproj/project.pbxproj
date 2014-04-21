@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13F30931905538F0028C7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F30921905538F0028C7B7 /* Foundation.framework */; };
+		C13F30951905538F0028C7B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F30941905538F0028C7B7 /* CoreGraphics.framework */; };
+		C13F30971905538F0028C7B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F30961905538F0028C7B7 /* UIKit.framework */; };
+		C13F309D1905538F0028C7B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C13F309B1905538F0028C7B7 /* InfoPlist.strings */; };
+		C13F309F1905538F0028C7B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F309E1905538F0028C7B7 /* main.m */; };
+		C13F30A31905538F0028C7B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F30A21905538F0028C7B7 /* AppDelegate.m */; };
+		C13F30A6190553900028C7B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13F30A4190553900028C7B7 /* Main_iPhone.storyboard */; };
+		C13F30A9190553900028C7B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13F30A7190553900028C7B7 /* Main_iPad.storyboard */; };
+		C13F30AC190553900028C7B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F30AB190553900028C7B7 /* ViewController.m */; };
+		C13F30AE190553900028C7B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13F30AD190553900028C7B7 /* Images.xcassets */; };
+		C13F30B5190553900028C7B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F30B4190553900028C7B7 /* XCTest.framework */; };
+		C13F30B6190553900028C7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F30921905538F0028C7B7 /* Foundation.framework */; };
+		C13F30B7190553900028C7B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F30961905538F0028C7B7 /* UIKit.framework */; };
+		C13F30BF190553900028C7B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C13F30BD190553900028C7B7 /* InfoPlist.strings */; };
+		C13F30C1190553900028C7B7 /* MyPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F30C0190553900028C7B7 /* MyPhotoBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C13F30B8190553900028C7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C13F30871905538F0028C7B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13F308E1905538F0028C7B7;
+			remoteInfo = MyPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C13F308F1905538F0028C7B7 /* MyPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13F30921905538F0028C7B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C13F30941905538F0028C7B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C13F30961905538F0028C7B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C13F309A1905538F0028C7B7 /* MyPhotoBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		C13F309C1905538F0028C7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C13F309E1905538F0028C7B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C13F30A01905538F0028C7B7 /* MyPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		C13F30A11905538F0028C7B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C13F30A21905538F0028C7B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C13F30A5190553900028C7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C13F30A8190553900028C7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C13F30AA190553900028C7B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C13F30AB190553900028C7B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C13F30AD190553900028C7B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C13F30B3190553900028C7B7 /* MyPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13F30B4190553900028C7B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C13F30BC190553900028C7B7 /* MyPhotoBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPhotoBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		C13F30BE190553900028C7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C13F30C0190553900028C7B7 /* MyPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPhotoBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C13F308C1905538F0028C7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13F30951905538F0028C7B7 /* CoreGraphics.framework in Frameworks */,
+				C13F30971905538F0028C7B7 /* UIKit.framework in Frameworks */,
+				C13F30931905538F0028C7B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13F30B0190553900028C7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13F30B5190553900028C7B7 /* XCTest.framework in Frameworks */,
+				C13F30B7190553900028C7B7 /* UIKit.framework in Frameworks */,
+				C13F30B6190553900028C7B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C13F30861905538F0028C7B7 = {
+			isa = PBXGroup;
+			children = (
+				C13F30981905538F0028C7B7 /* MyPhotoBrowser */,
+				C13F30BA190553900028C7B7 /* MyPhotoBrowserTests */,
+				C13F30911905538F0028C7B7 /* Frameworks */,
+				C13F30901905538F0028C7B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C13F30901905538F0028C7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C13F308F1905538F0028C7B7 /* MyPhotoBrowser.app */,
+				C13F30B3190553900028C7B7 /* MyPhotoBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C13F30911905538F0028C7B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13F30921905538F0028C7B7 /* Foundation.framework */,
+				C13F30941905538F0028C7B7 /* CoreGraphics.framework */,
+				C13F30961905538F0028C7B7 /* UIKit.framework */,
+				C13F30B4190553900028C7B7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13F30981905538F0028C7B7 /* MyPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				C13F30A11905538F0028C7B7 /* AppDelegate.h */,
+				C13F30A21905538F0028C7B7 /* AppDelegate.m */,
+				C13F30A4190553900028C7B7 /* Main_iPhone.storyboard */,
+				C13F30A7190553900028C7B7 /* Main_iPad.storyboard */,
+				C13F30AA190553900028C7B7 /* ViewController.h */,
+				C13F30AB190553900028C7B7 /* ViewController.m */,
+				C13F30AD190553900028C7B7 /* Images.xcassets */,
+				C13F30991905538F0028C7B7 /* Supporting Files */,
+			);
+			path = MyPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		C13F30991905538F0028C7B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13F309A1905538F0028C7B7 /* MyPhotoBrowser-Info.plist */,
+				C13F309B1905538F0028C7B7 /* InfoPlist.strings */,
+				C13F309E1905538F0028C7B7 /* main.m */,
+				C13F30A01905538F0028C7B7 /* MyPhotoBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C13F30BA190553900028C7B7 /* MyPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				C13F30C0190553900028C7B7 /* MyPhotoBrowserTests.m */,
+				C13F30BB190553900028C7B7 /* Supporting Files */,
+			);
+			path = MyPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		C13F30BB190553900028C7B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13F30BC190553900028C7B7 /* MyPhotoBrowserTests-Info.plist */,
+				C13F30BD190553900028C7B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C13F308E1905538F0028C7B7 /* MyPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13F30C4190553900028C7B7 /* Build configuration list for PBXNativeTarget "MyPhotoBrowser" */;
+			buildPhases = (
+				C13F308B1905538F0028C7B7 /* Sources */,
+				C13F308C1905538F0028C7B7 /* Frameworks */,
+				C13F308D1905538F0028C7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPhotoBrowser;
+			productName = MyPhotoBrowser;
+			productReference = C13F308F1905538F0028C7B7 /* MyPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C13F30B2190553900028C7B7 /* MyPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13F30C7190553900028C7B7 /* Build configuration list for PBXNativeTarget "MyPhotoBrowserTests" */;
+			buildPhases = (
+				C13F30AF190553900028C7B7 /* Sources */,
+				C13F30B0190553900028C7B7 /* Frameworks */,
+				C13F30B1190553900028C7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C13F30B9190553900028C7B7 /* PBXTargetDependency */,
+			);
+			name = MyPhotoBrowserTests;
+			productName = MyPhotoBrowserTests;
+			productReference = C13F30B3190553900028C7B7 /* MyPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C13F30871905538F0028C7B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shanshan ZHAO";
+				TargetAttributes = {
+					C13F30B2190553900028C7B7 = {
+						TestTargetID = C13F308E1905538F0028C7B7;
+					};
+				};
+			};
+			buildConfigurationList = C13F308A1905538F0028C7B7 /* Build configuration list for PBXProject "MyPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C13F30861905538F0028C7B7;
+			productRefGroup = C13F30901905538F0028C7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13F308E1905538F0028C7B7 /* MyPhotoBrowser */,
+				C13F30B2190553900028C7B7 /* MyPhotoBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C13F308D1905538F0028C7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13F30A9190553900028C7B7 /* Main_iPad.storyboard in Resources */,
+				C13F30AE190553900028C7B7 /* Images.xcassets in Resources */,
+				C13F30A6190553900028C7B7 /* Main_iPhone.storyboard in Resources */,
+				C13F309D1905538F0028C7B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13F30B1190553900028C7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13F30BF190553900028C7B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C13F308B1905538F0028C7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13F30AC190553900028C7B7 /* ViewController.m in Sources */,
+				C13F30A31905538F0028C7B7 /* AppDelegate.m in Sources */,
+				C13F309F1905538F0028C7B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13F30AF190553900028C7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13F30C1190553900028C7B7 /* MyPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C13F30B9190553900028C7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13F308E1905538F0028C7B7 /* MyPhotoBrowser */;
+			targetProxy = C13F30B8190553900028C7B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C13F309B1905538F0028C7B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13F309C1905538F0028C7B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C13F30A4190553900028C7B7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13F30A5190553900028C7B7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C13F30A7190553900028C7B7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13F30A8190553900028C7B7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C13F30BD190553900028C7B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13F30BE190553900028C7B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C13F30C2190553900028C7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C13F30C3190553900028C7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C13F30C5190553900028C7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhotoBrowser/MyPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MyPhotoBrowser/MyPhotoBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C13F30C6190553900028C7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhotoBrowser/MyPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MyPhotoBrowser/MyPhotoBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C13F30C8190553900028C7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyPhotoBrowser.app/MyPhotoBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhotoBrowser/MyPhotoBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyPhotoBrowserTests/MyPhotoBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C13F30C9190553900028C7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyPhotoBrowser.app/MyPhotoBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPhotoBrowser/MyPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MyPhotoBrowserTests/MyPhotoBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C13F308A1905538F0028C7B7 /* Build configuration list for PBXProject "MyPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13F30C2190553900028C7B7 /* Debug */,
+				C13F30C3190553900028C7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C13F30C4190553900028C7B7 /* Build configuration list for PBXNativeTarget "MyPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13F30C5190553900028C7B7 /* Debug */,
+				C13F30C6190553900028C7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C13F30C7190553900028C7B7 /* Build configuration list for PBXNativeTarget "MyPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13F30C8190553900028C7B7 /* Debug */,
+				C13F30C9190553900028C7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C13F30871905538F0028C7B7 /* Project object */;
+}
