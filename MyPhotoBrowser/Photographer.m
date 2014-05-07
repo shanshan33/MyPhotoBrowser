@@ -1,13 +1,18 @@
 //
-//  ViewController.h
+//  Photographer.m
 //  MyPhotoBrowser
 //
 //  Created by Shanshan ZHAO on 21/04/14.
 //  Copyright (c) 2014 Shanshan ZHAO. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Photographer.h"
+#import "Photo.h"
 
-@interface ViewController : UIViewController
+
+@implementation Photographer
+
+@dynamic name;
+@dynamic photos;
 
 @end
